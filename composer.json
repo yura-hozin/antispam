@@ -1,0 +1,21 @@
+{
+    "name": "yura-hozin/antispam",
+    "description": "Модуль Антиспама для сайтов",
+    "authors": [
+        {
+            "name": "yura",
+            "email": "yura@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+        }
+    }
+}
