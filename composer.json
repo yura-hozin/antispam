@@ -1,6 +1,6 @@
 {
     "name": "yura-hozin/antispam",
-    "description": "Модуль Антиспама для сайтов",
+    "description": "Модуль: Антиспам для сайтов",
     "authors": [
         {
             "name": "yura",
@@ -8,11 +8,18 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "yura-hozin/antispam":"dev-master"
     },
     "require-dev": {
 
     },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/yura-hozin/antispam.git"
+        }
+    ],    
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
